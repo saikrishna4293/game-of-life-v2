@@ -1,7 +1,6 @@
 FROM tomcat:8-jre8
 
 ARG warName
-ENV WARNAME=$warName
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
