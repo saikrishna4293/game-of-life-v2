@@ -7,5 +7,3 @@ COPY /gameoflife-web/target/gameoflife.war /usr/local/tomcat/webapps/ROOT.war
 EXPOSE 8080
 
 CMD ["catalina.sh", "run"]
-
-CMD "echo" "Building Done, next step is push image to dockerhub"
